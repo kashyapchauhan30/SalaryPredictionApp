@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-loaded_model = pickle.load(open('D:\salaryapp\placement_model.sav', 'rb'))
+loaded_model = pickle.load(open('placement_model.sav', 'rb'))
 
 # Prediction function
 def salary_prediction(input_data):
